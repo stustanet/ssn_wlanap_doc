@@ -7,71 +7,84 @@
 \usepackage[utf8]{inputenc}
 \usepackage{ngerman}
 \usepackage{eurosym}
-\usepackage{tabularx}
+%\usepackage{tabularx}
 \usepackage[pdftex,final]{graphicx}
 \usepackage{wrapfig}
 \usepackage[top=1.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\pagenumbering{gobble}
+\setlength{\parindent}{0in}
 %\usepackage[margin=2cm]{geometry}
 
 \usepackage{hyperref}
 
 
 
-\title{Kurzanleitung für StuStaNet WLAN-Router\\Short manual for StuStaNet wifi-router}
+\title{Kurzanleitung für StuStaNet WLAN-Router\\Quick start Guide for StuStaNet WiFi-router}
 \date{}
 
 \begin{document}
+	
+	\maketitle
+	
+	\begin{figure}[t!]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=0.8\textwidth,keepaspectratio]{Bilder/StuStaNet_Logo}
+		\vspace{-50pt}
+	\end{figure}
+	
+	\vspace{-70pt}
+	
+	%\section*{Kurzanleitung-\\\Quick start Guide}
+	
+	\begin{enumerate}
+		\item Router einschalten (on/off-Knopf hinten)\\
+		Turn on the router (on/off button at the back)
+		\item Router anstecken (blaue "`Internet"'-Buchse an (meist) linke Netzwerkdosen an der Wand)\\
+		connect router (blue "'Internet"' socket to the (in most cases) left network wall socket)
+		\item warte eine Minute, bis der Router hochgefahren ist\\
+		wait a minute for the router to boot
+		\item "`Reset"'-Knopf mit einem spitzen Gegenstand für mehr als 5 Sekunden gedrückt halten\\
+		push and hold the "'Reset"' button using a pointed object for more than 5 seconds
+		\item warten ca. 2 Minuten, bis die orange LED nicht mehr blinkt\\
+		wait about 2 minutes until the orange LED stops flashing
+		\item Das Gerät ist nun fertig konfiguriert\\
+		The router is now configured\\[1em]
+	\end{enumerate}
+	
+	WLAN-Name (SSID) und Passwort stehen auf dem Aufkleber.
+	
+	WiFi name (SSID) and password are on the label.
+	\\[1em]
+	
+	Weitere Informationen im Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.
+	
+	Further information in the Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.\\[1em]
+	
+	Um den Router außerhalb der StuSta zu nutzen, muss das Gerät in den Einstellungen (\url{http://192.168.1.1}) zurückgesetzt werden.
+	
+	To use the router outside StuSta, the device has to be reset using the Settings menue (\url{http://192.168.1.1}).\\[1em]
+	
+	Bei Fragen und Problemen kann ein Admin konsultiert werden.
+	
+	If you have problems or questions, you can ask an Admin.
+	
+	\vfill
+	\begin{center}
+		\setlength{\unitlength}{1mm}
+		\begin{picture}(70, 35)(0, 0)
+		\put(0,0){\line(1,0){4}}
+		\put(0,0){\line(0,1){4}}
+		\put(70,35){\line(-1,0){4}}
+		\put(70,35){\line(0,-1){4}}
+		\put(29,17){Aufkleber}
+		\put(70,0){\line(-1,0){4}}
+		\put(70,0){\line(0,1){4}}
+		\put(0,35){\line(1,0){4}}
+		\put(0,35){\line(0,-1){4}}
+		\end{picture}
+	\end{center}
+	%\vfill
 
-\maketitle
-
-\begin{figure}[t!]
-   \centering
-   \vspace{-20pt}
-   \includegraphics[width=0.8\textwidth,keepaspectratio]{Bilder/StuStaNet_Logo}
-   \vspace{-20pt}
-\end{figure}
-
-
-\section*{Kurzanleitung - short manual}
-
-\begin{enumerate}
-    \item Router einschalten (schwarzer on/off-Knopf hinten) - turn router on (black switch on the back)
-    \item Router anstecken (blaue "`WAN"'-Buchse an Stusta-Netzwerk) - connect router (blue socket to StuSta network socket)
-    \item warten, bis der Router gestartet ist (ca. 1 Min) - wait for router to boot (ca. 1 min)
-    \item "`Wi-Fi/WPS"'-Knopf mehr (!) als 5 sec. gedrückt halten und dann loslassen - push and hold "'Wi-Fi/WPS"' button for more (!) than 5 seconds 
-	\item warten bis die orange LED nicht mehr blinkt ... ca. 2 Min. - wait until the orange LED stops flashing ... ca. 2 minutes
-\end{enumerate}
-
-$\Rightarrow$ Das Gerät ist nun fertig konfiguriert.
-
-$\Rightarrow$ The router is now configured.
-\vspace{1em}
-
-WLAN-Name und Passwort stehen auf dem Aufkleber. Der QR-Code kann mit der passenden App gescannt werden. 
-
-Wifi SSID and password are on the label. You can scan the QR-code with a suitable app for easier wifi configuration.
-
-Weitere Informationen im Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.\\[1em]
-
-Bei Fragen und Problemen kann ein Admin konsultiert werden.
-
-If you have problems or questions, ask an Admin.
-\vfill
-\begin{center}
-    \setlength{\unitlength}{1mm}
-    \begin{picture}(70, 35)(0, 0)
-          \put(0,0){\line(1,0){4}}
-          \put(0,0){\line(0,1){4}}
-          \put(70,35){\line(-1,0){4}}
-          \put(70,35){\line(0,-1){4}}
-          \put(29,17){Aufkleber}
-          \put(70,0){\line(-1,0){4}}
-          \put(70,0){\line(0,1){4}}
-          \put(0,35){\line(1,0){4}}
-          \put(0,35){\line(0,-1){4}}
-    \end{picture}
-\end{center}
-\vfill
-
+	
 \end{document}
-
