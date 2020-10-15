@@ -7,71 +7,85 @@
 \usepackage[utf8]{inputenc}
 \usepackage{ngerman}
 \usepackage{eurosym}
-\usepackage{tabularx}
+%\usepackage{tabularx}
 \usepackage[pdftex,final]{graphicx}
 \usepackage{wrapfig}
 \usepackage[top=1.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\pagenumbering{gobble}
+\setlength{\parindent}{0in}
 %\usepackage[margin=2cm]{geometry}
 
 \usepackage{hyperref}
 
 
 
-\title{Kurzanleitung für StuStaNet WLAN-Router\\Short manual for StuStaNet wifi-router}
+\title{Kurzanleitung für StuStaNet WLAN-Router\\Quick start Guide for StuStaNet WiFi-router}
 \date{}
 
 \begin{document}
-
+	
 \maketitle
 
 \begin{figure}[t!]
-   \centering
-   \vspace{-20pt}
-   \includegraphics[width=0.8\textwidth,keepaspectratio]{Bilder/StuStaNet_Logo}
-   \vspace{-20pt}
+	\centering
+	\vspace{-20pt}
+	\includegraphics[width=0.8\textwidth,keepaspectratio]{Bilder/StuStaNet_Logo}
+	\vspace{-50pt}
 \end{figure}
 
+\vspace{-70pt}
 
-\section*{Kurzanleitung - short manual}
+%\section*{Kurzanleitung-\\\Quick start Guide}
 
 \begin{enumerate}
-    \item Router einschalten (schwarzer on/off-Knopf hinten) - turn router on (black switch on the back)
-    \item Router anstecken (blaue "`WAN"'-Buchse an Stusta-Netzwerk) - connect router (blue socket to StuSta network socket)
-    \item warten, bis der Router gestartet ist (ca. 1 Min) - wait for router to boot (ca. 1 min)
-    \item "`Wi-Fi/WPS"'-Knopf mehr (!) als 5 sec. gedrückt halten und dann loslassen - push and hold "'Wi-Fi/WPS"' button for more (!) than 5 seconds 
-	\item warten bis die orange LED nicht mehr blinkt ... ca. 2 Min. - wait until the orange LED stops flashing ... ca. 2 minutes
+	\item Router anstecken (blaue "`Internet"'-Buchse an (meist) linke Netzwerkdosen an der Wand)\\
+	Connect router (blue "'Internet"' socket to the (in most cases) left network wall socket)
+	\item Router einschalten (on/off-Knopf hinten)\\
+	turn on the router (on/off button at the back)
+	\item warte eine Minute, bis der Router hochgefahren ist\\
+	wait a minute for the router to boot
+	\item den "`WPS"'-Knopf drücken\\
+	press the "'WPS"'-Button
+	\item warten ca. 2 Minuten\\
+	wait for about 2 minutes
+	\item Der Router ist nun fertig konfiguriert.\\
+	The router is now configured.\vspace{5 mm}
 \end{enumerate}
 
-$\Rightarrow$ Das Gerät ist nun fertig konfiguriert.
+WLAN-Name (SSID) und Passwort stehen auf dem Aufkleber.\\
+Wi-Fi name (SSID) and password are on the label.\vspace{5 mm}
 
-$\Rightarrow$ The router is now configured.
-\vspace{1em}
+Die Einstellungen sind unter \url{http://192.168.1.1} erreichbar.\\
+The settings can be accessed using \url{http://192.168.1.1}.\vspace{5 mm}
 
-WLAN-Name und Passwort stehen auf dem Aufkleber. Der QR-Code kann mit der passenden App gescannt werden. 
+Um den Router außerhalb der StuSta zu nutzen, muss das Gerät zurückgesetzt werden.\\
+In order to use the router outside the StuSta, the device has to be reset.\vspace{5 mm}
 
-Wifi SSID and password are on the label. You can scan the QR-code with a suitable app for easier wifi configuration.
+Um den Router zurückzusetzen, drücke den "`RESET"'-Knopf für mehr als 10 Sekunden mit einem spitzen Gegenstand.\\
+To reset the router, press the "'RESET"'-button for more than 10 seconds with a pointed object\vspace{5 mm}
 
-Weitere Informationen im Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.\\[1em]
+Weitere Informationen im Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.\\
+Further information in the Wiki: \url{https://wiki.stusta.mhn.de/Wlan}.\vspace{5 mm}
 
-Bei Fragen und Problemen kann ein Admin konsultiert werden.
+Bei weiteren Fragen kann \url{https://stustanet.de/de/support/} weiterhelfen.\\
+For further questions \url{https://stustanet.de/en/support/} can be useful.\vspace{5 mm}
 
-If you have problems or questions, ask an Admin.
 \vfill
 \begin{center}
-    \setlength{\unitlength}{1mm}
-    \begin{picture}(70, 35)(0, 0)
-          \put(0,0){\line(1,0){4}}
-          \put(0,0){\line(0,1){4}}
-          \put(70,35){\line(-1,0){4}}
-          \put(70,35){\line(0,-1){4}}
-          \put(29,17){Aufkleber}
-          \put(70,0){\line(-1,0){4}}
-          \put(70,0){\line(0,1){4}}
-          \put(0,35){\line(1,0){4}}
-          \put(0,35){\line(0,-1){4}}
-    \end{picture}
+	\setlength{\unitlength}{1mm}
+	\begin{picture}(70, 35)(0, 0)
+	\put(0,0){\line(1,0){4}}
+	\put(0,0){\line(0,1){4}}
+	\put(70,35){\line(-1,0){4}}
+	\put(70,35){\line(0,-1){4}}
+	\put(29,17){Aufkleber}
+	\put(70,0){\line(-1,0){4}}
+	\put(70,0){\line(0,1){4}}
+	\put(0,35){\line(1,0){4}}
+	\put(0,35){\line(0,-1){4}}
+	\end{picture}
 \end{center}
 \vfill
-
+\flushright\tiny{Version tp-link TL-WR940N-v6.1-2019-04-27}
+	
 \end{document}
-
